@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgb(106,183,245);
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+.container{
+    display: block;
+    max-width: 1600px;
+}
+
+.whitebox{
+    background-color: #fff;
+    text-align: center;
+    width: 1100px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    padding-top: 20px;
+    max-width: 1100px;
+    padding-bottom: 20px;
+   
+}
+
+.card{
+    width: 500px;
+    background:rgba(0,0,0,0.5);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding: 40px;
+
+}
+
+.img{
+    width: 40px;
+    
+}
+
+.imgsprite{
+    width: 100px;
+}
+
+.container-img{
+    display: flex;
+    background: rgb(106,183,245);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+.bola{
+    border-radius: 20px;
+    display: flex;
+}
+
+p{
+    align-items: flex-start;
+    justify-content: end;
+    text-align: start;
+    font-size: 15px;
+}
+
+.subtitulo{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.text{
+    display: block;
+    text-align: justify;
+    
+}
+
+.tituloPagina{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .imgtipos{
+    padding-bottom: 40px;
+  }

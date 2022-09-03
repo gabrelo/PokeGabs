@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgb(106,183,245);
+  min-height:100vh;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.whitebox{
+  background-color: #fff;
+  text-align: center;
+  width: 1100px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+
+.owl-carousel{
+  padding: 50px;
+}
+
+
+
+#botao_anterior,
+#botao_proximo {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#botao_anterior {
+  right: 500px;
+  bottom: 200px;
+  position: relative;
+  
+}
+
+#botao_proximo {
+  left: 500px;
+  bottom: 200px;
+  position: relative;
+
+} 
+
+.texto{
+  display: block;
+  text-align: justify;
+  padding: 40px;
+}
+
+.imgcapa{
+  width: 400px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto2{
+  display: block;
+  text-align: justify;
+  padding: 40px;
+}
+
+
+.imgtitulo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imgbest{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.title{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+.titulo1{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.titulo2{
+  margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+  .imgbest{
+    display: block;
+    margin: auto;
+  }
+}
+
+.tituloPagina{
+  font-size: 70px;
+  text-align: center;
+}

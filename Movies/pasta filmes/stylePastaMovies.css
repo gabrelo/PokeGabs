@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgb(106,183,245);
+  min-height:100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.whitebox{
+  background-color: #fff;
+  text-align: center;
+  width: 1100px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  
+  
+  padding: 40px;
+  
+}
+
+span{
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 400;
+}
+
+h1{
+  margin: auto;
+  width: 700px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: rgba(245, 245, 245, 0.158);
+  
+}
+
+h2{
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 5px;
+  
+}
+
+.subtitulo{
+  width: 600px;
+  
+  margin: auto;
+}
+.name{
+  padding: 0;
+}
+
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.itens{
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  
+  z-index: 2;
+}
+
+.item{
+  padding: 3px;
+  
+  
+}
+
+

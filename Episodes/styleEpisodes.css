@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+  
+}
+
+#titulo{
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-container{
+  margin-top: 250px;
+}
+
+.swiper-slide{
+  max-width: 424px ;
+  padding: 30px;
+  margin: 0;
+}
+
+.conteudo{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 424px;
+  height: 420px;
+  background:rgba(0,0,0,0.5);
+  color: white;
+  text-align:justify;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
+h1{
+  justify-content: end;
+  text-align: center;
+  padding: 10px;
+}
+
+h4{
+  font-family: 'Oxanium', cursive;
+}
+
+.plataformas{
+  display: block;
+  align-content: end;
+}
+
